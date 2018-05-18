@@ -1,5 +1,7 @@
 Betrayal Character Sheet is a counter for stats for your character in the game Betrayal at House on the Hill.
 
+![screenshotbcc](https://user-images.githubusercontent.com/1616363/40254853-e9219b30-5a99-11e8-96e1-c4e53b1df1b3.png)
+
 This project is Copyright (c) 2018 Robyn Klopp Kolbeck 
 All the work contained herein is my own original work.  You may use it as reference material, but all copies must carry the full license information and credit me as the original author
 

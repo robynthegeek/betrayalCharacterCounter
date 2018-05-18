@@ -28,10 +28,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Decrements Might by 1 when might -1 is pressed, prevents user from going below score of one, displays game over toast.
+     * Decrements Might by 1 when might -1 is pressed, prevents user from going below score of zero, displays game over toast.
      */
     public void subtractOneMight(View v) {
         if (mightLevel < 2) {
+            mightLevel = 0;
+            displayMight(mightLevel);
             Toast.makeText(MainActivity.this, "Ouch. x_x your character has died", Toast.LENGTH_LONG).show();
         } else {
             mightLevel = mightLevel - 1;
@@ -56,10 +58,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Decrements Sanity by 1 when sanity -1 is pressed, prevents user from going below score of one, displays game over toast.
+     * Decrements Sanity by 1 when sanity -1 is pressed, prevents user from going below score of zero, displays game over toast.
      */
     public void subtractOneSanity(View v) {
         if (sanityLevel < 2) {
+            sanityLevel = 0;
+            displaySanity(sanityLevel);
             Toast.makeText(MainActivity.this, "Ouch. x_x your character has died", Toast.LENGTH_LONG).show();
         } else {
             sanityLevel = sanityLevel - 1;
@@ -85,10 +89,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Decrements Knowledge by 1 when knowledge -1 is pressed, prevents user from going below score of one, displays game over toast.
+     * Decrements Knowledge by 1 when knowledge -1 is pressed, prevents user from going below score of zero, displays game over toast.
      */
     public void subtractOneKnowledge(View v) {
         if (knowledgeLevel < 2) {
+            knowledgeLevel = 0;
+            displayKnowledge(knowledgeLevel);
             Toast.makeText(MainActivity.this, "Ouch. x_x your character has died", Toast.LENGTH_LONG).show();
         } else {
             knowledgeLevel = knowledgeLevel - 1;
@@ -114,10 +120,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Decrements Speed by 1 when speed -1 is pressed, prevents user from going below score of one, displays game over toast.
+     * Decrements Speed by 1 when speed -1 is pressed, prevents user from going below score of zero, displays game over toast.
      */
     public void subtractOneSpeed(View v) {
         if (speedLevel < 2) {
+            speedLevel = 0;
+            displaySpeed(speedLevel);
             Toast.makeText(MainActivity.this, "Ouch. x_x your character has died", Toast.LENGTH_LONG).show();
         } else {
             speedLevel = speedLevel - 1;
