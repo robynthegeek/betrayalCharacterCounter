@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Decrements Speed by 1 when speed -1 is pressed, prevents user from going below score of zero, displays game over toast.
+     * Decrements Speed by 1 when speed -1 is pressed, prevents user from going below score of zero, displays game-over toast.
      */
     public void subtractOneSpeed(View v) {
         if (speedLevel < 2) {
