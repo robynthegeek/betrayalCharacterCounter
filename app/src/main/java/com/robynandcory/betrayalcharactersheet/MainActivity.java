@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Resets to default values
+     * Resets scores to default values
      */
     public void resetAll(View v) {
         mightLevel = 4;

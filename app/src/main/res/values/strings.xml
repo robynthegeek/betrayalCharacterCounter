@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Betrayal Character Sheet</string>
+    <string name="might">Might</string>
+    <string name="add1">+1</string>
+    <string name="_4">4</string>
+    <string name="minus1">-1</string>
+    <string name="sanity">Sanity</string>
+    <string name="knowledge">Knowledge</string>
+    <string name="speed">Speed</string>
+    <string name="reset">Reset</string>
 </resources>
