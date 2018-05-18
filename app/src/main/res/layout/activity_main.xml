@@ -22,14 +22,13 @@
             android:orientation="vertical">
 
             <TextView
+                style="@style/TitleText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
-                android:text="@string/might"
-                android:textColor="#ffffff"
-                android:textSize="24sp" />
+                android:text="@string/might" />
 
             <Button
                 android:layout_width="match_parent"
@@ -72,14 +71,13 @@
             android:orientation="vertical">
 
             <TextView
+                style="@style/TitleText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
-                android:text="@string/sanity"
-                android:textColor="#ffffff"
-                android:textSize="24sp" />
+                android:text="@string/sanity" />
 
             <Button
                 android:layout_width="match_parent"
@@ -128,14 +126,13 @@
             android:orientation="vertical">
 
             <TextView
+                style="@style/TitleText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
                 android:gravity="center_horizontal"
-                android:text="@string/knowledge"
-                android:textColor="#ffffff"
-                android:textSize="24sp" />
+                android:text="@string/knowledge" />
 
             <Button
                 android:layout_width="match_parent"
@@ -177,14 +174,14 @@
             android:orientation="vertical">
 
             <TextView
+                style="@style/TitleText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
                 android:gravity="center_horizontal"
                 android:text="@string/speed"
-                android:textColor="#ffffff"
-                android:textSize="24sp" />
+                />
 
             <Button
                 android:layout_width="match_parent"
